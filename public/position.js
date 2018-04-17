@@ -10,4 +10,8 @@ var position = {
     this.y = this.y - this.moveAmount;
     this.setInBounds();
   },
+  moveDown:function() {
+    this.y = this.y + this.moveAmount;
+    this.setInBounds();
+  }
 };
