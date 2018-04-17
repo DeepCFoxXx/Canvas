@@ -18,4 +18,9 @@ describe('position', function() {
     assert.equal(10, position.y);
   });
 
+  it('should not be able to out of bounds', function() {
+    position.moveLeft();
+    assert.equal(0, position.x);
+  });
+
 });
