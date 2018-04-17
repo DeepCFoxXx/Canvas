@@ -13,5 +13,9 @@ var position = {
   moveDown:function() {
     this.y = this.y + this.moveAmount;
     this.setInBounds();
+  },
+  moveLeft:function() {
+    this.x = this.x - this.moveAmount;
+    this.setInBounds();
   }
 };
