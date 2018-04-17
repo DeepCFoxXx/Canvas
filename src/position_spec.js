@@ -8,4 +8,8 @@ describe('position', function() {
     assert.equal(0, position.x);
   });
 
+  it('should have a move amount of ten', function() {
+    assert.equal(10, position.moveAmount);
+  });
+
 });
